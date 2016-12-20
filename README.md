@@ -104,7 +104,7 @@ try {
   console.log(util.inspect(moduleToInspect, { colors: true }));
 } catch (error) {
   console.error(`Unable to inspect module ${moduleName}.`);
-  console.error(`Reason: ${error.message});
+  console.error(`Reason: ${error.message}`);
   exit(1);
 }
 ```
