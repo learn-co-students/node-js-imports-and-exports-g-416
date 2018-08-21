@@ -7,3 +7,9 @@ module.exports = function getUserArgument() {
 
   return userArgs[0];
 };
+
+// function getUserArguments() {
+//     return process.argv.slice(2);
+// }
+ 
+// console.log(getUserArguments());
